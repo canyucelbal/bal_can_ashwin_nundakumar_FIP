@@ -10,7 +10,7 @@ This is Beer Rebranding Website.
 You'll need git installed locally.
 
 CD to te location of your choice, and then git clone.
-[Git Clone](https://github.com/canyucelbal/bal_can_nandakumar_ashwin_music_mixer)
+[Git Clone](https://github.com/canyucelbal/bal_can_ashwin_nundakumar_FIP)
 
 ## Requirements
 You can use every browser, such as:
