@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<h1 class="hidden">Homepage</h1>
+<div class="container">
+<header>
+	<section class="header">	
+		<h2 class="hidden">Header</h2>
+			<section class="logo">
+				<h2 class="hidden">Logo</h2>
+				<img src="images/logo.svg" alt="logo" width="150" height="150">
+			</section>
+			<section class="mainNav">
+				<h2 class="hidden">Header Navigation</h2>
+				<nav>
+					<h2 class="hidden">Nav</h2>
+					<a href="index.html">HOME</a>
+					<a href="craft.html">CRAFT</a>
+					<a href="product.html">PRODUCTS</a>
+					<a href="advertising.html">ADVERTISING</a>
+					<a href="#">CONTACT</a>
+				</nav>
+			</section>
+	</section>		
+</header>
+
+<section class="contactPage">
+			<h2 class="hidden">Contact Form</h2>
+	<section class="contactBox">
+		<h2 class="hidden">Contact Box</h2>
+	<h2 class="slide-left">Contact form</h2>
+               
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name" class="fadeIn">Name: (required)</label><br>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name"><br>
+                    
+                    <label for="email" class="fadeIn">E-mail: (will not be published)</label><br>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email"><br>
+                    
+                    
+                    <label for="phone" class="fadeIn">Phone: (required)</label><br>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number"><br>
+                    
+                    <label for="comments" class="fadeIn">Comments:</label><br>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea><br><br>
+                    
+                   
+                    <input class="submit" type="submit" value="Submit">
+            </form>
+        	</section>
+
+
+
+
+<footer>
+	<h2 class="hidden">Footer</h2>
+	<section class="footer">
+		<section class="mainNav">
+				<h2 class="hidden">Header Navigation</h2>
+				<nav>
+					<h2 class="hidden">Nav</h2>
+					<a href="index.html">HOME</a>
+					<a href="craft.html">CRAFT</a>
+					<a href="product.html">PRODUCTS</a>
+					<a href="advertising.html">ADVERTISING</a>
+					<a href="#">CONTACT</a>
+				</nav>
+			</section>
+		<section class="copyright">
+			<p>© 2020 TETLEYS'S BREWERY</p>
+		</section>
+	</section>
+</footer>
+ </div>
+</body>
+</html>
