@@ -1,5 +1,28 @@
+		body {
+  background-image: url('../images/bckgrd_image.jpg');
+}
+
+@font-face {
+font-family: "Omnes";
+src: url("../fonts/Omnes.ttf");
+}
+
+
+h1,h2,h3,p,a,label {
+	font-family: Omnes, Arial, sans-serif;
+}
+
+p {
+	width: 80%;
+	margin-left: 20px;
+}
+
+.contactPage {
+	color: white;
+}
+
 .container {
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 	background-color: #3D3D3D;
 }
@@ -31,7 +54,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', end
 .advertisingTitle {
 	display: flex;
 	flex-direction: column;
-	margin-left: 175px;
+	margin-left: 275px;
 }
 
 .advertisingTitle h2 {
@@ -48,6 +71,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', end
 	color: white;
 	font-size: 15px;
 	margin-left: 60px;
+}
+
+.contactPage {
+	margin-left: 150px;
+	margin-bottom: 20px;
+}
+
+#contactForm input{
+	border: 0;
+	width: 200px;
+	height: 20px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background-color: #C6C6C6;
+}
+
+#contactForm textarea {
+	margin-top: 8px;
+	margin-bottom: 8px;
+	background-color: #C6C6C6;
 }
 
 .productPageContent {
@@ -85,27 +128,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', end
 	color: white;
 	display: flex;
 	flex-direction: column;
+
+}
+
+.product2 {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
 }
 
 .availableLocalImages {
 	display: flex;
 	justify-content: center;
+
+	margin-bottom: 10px;
 }
 
 .imagesRow {
 	display: flex;
 	flex-direction: row;
+	text-align: center;
 }
 
 .imagesInfo {
 	display: flex;
 	flex-direction: column;
-	margin-left: 30px;
+	margin-left: 0px;
 }
 
 .advertisingPhotoArea {
 	display: flex;
 	flex-direction: column;
+	margin-left: 100px;
+	flex-grow: 1;
 }
 
 .photoRow1 {
@@ -150,19 +206,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', end
 
 .mainNav {	
 	margin-top: 23px;
-	margin-left: 100px;
+	margin-left: 200px;
 }
 
 
 .mainNav a {
 	text-decoration: none;
 	color: white;
-	margin-right: 15px;
+	margin-right: 30px;
 }
 
 .footerNav {	
 	margin-top: 23px;
-	margin-left: 20px;
+	margin-left: 50px;
+	margin-bottom: 23px;
 }
 
 
@@ -175,7 +232,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', end
 .copyright p {
 	margin-top: 23px;
 	color: white;
-	margin-left: 250px;
+	margin-left: 400px;
 
 }
 
@@ -183,6 +240,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', end
 	display: flex;
 	flex-direction: column;
 	background-color: #565656;
+	width: 1200px;
 }
 
 .productsInfo {
@@ -191,11 +249,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', end
 	color: white;
 }
 
+.imageAndInfo {
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
 video {
 	display: flex;
-	margin-left: 50px;
-	width: 900px;
+	margin-left: 100px;
+	width: 1000px;
 	height: 580px;
+	margin-bottom: 20px;
 }
 
 .productsSection {
@@ -208,10 +275,22 @@ video {
 
 }
 
+.productImages {
+	display: flex;
+	flex-direction: column;
+}
+
 .exclusives {
 	display: flex;
 	flex-direction: column;
 }
+
+.exclusiveImages {
+	display: flex;
+	flex-direction: row;
+}
+
+
 .footer {
 	display: flex;
 	flex-direction: row;
