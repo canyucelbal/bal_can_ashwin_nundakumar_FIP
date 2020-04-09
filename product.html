@@ -3,6 +3,7 @@
 <head>
 	<title>Products</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -54,19 +55,19 @@
 	<section class="availableLocalImages">
 		<section class="imagesRow">
 			<section class="imagesInfo">
-			<img src="images/beer1.png">
-			<p>TETLEY'S DRAUGHT</p>
+			<img src="images/beer1.png"  data-offset="0" class="LightBoxImg">
+			<p>TETLEY'S DRAUGHT</p> 
 			</section>
 			<section class="imagesInfo">
-			<img src="images/beer2.png">
+			<img src="images/beer2.png"  data-offset="1" class="LightBoxImg">
 			<p>TETLEY'S LAGER</p>
 			</section>
 			<section class="imagesInfo">
-			<img src="images/beer3.png">
+			<img src="images/beer3.png"  data-offset="2" class="LightBoxImg">
 			<p>TETLEY'S BLONDE <br>AMERICAN LAGER</p>
 			</section>
 			<section class="imagesInfo">
-			<img src="images/beer4.png">
+			<img src="images/beer4.png"  data-offset="3" class="LightBoxImg">
 			<p>TETLEY'S EXTRA SCOUT</p>
 			</section>
 			<section class="productPageBorder"></section>
@@ -118,6 +119,11 @@
 	</section>
 </section>
 
+	<section class="LightBox bouncingAnimation">
+				<span class="close-button">X</span>
+				<h2></h2>
+				<p class="LightBoxInfo"></p>
+	</section>
 
 <footer>
 	<h2 class="hidden">Footer</h2>
