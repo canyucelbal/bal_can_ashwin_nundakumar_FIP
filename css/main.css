@@ -571,50 +571,70 @@ video {
 
 .adv1 {
 	width: 500px;
-	background: url(../images/adv1.jpg);
+	
 }
 
 .adv2 {
 	width: 500px;
-	background: url(../images/adv2.jpg);
+	
 }
 
 .adv3 {
 	width: 500px;
-	background: url(../images/adv3.jpg);
+	
 }
 
 .adv4 {
 	width: 500px;
-	background: url(../images/adv4.jpg);
+	
 }
 
 .adv5 {
 	width: 500px;
-	background: url(../images/adv5.jpg);
+	
 }
 
 .adv6 {
 	width: 500px;
-	background: url(../images/adv6.jpg);
+	
 }
 
-.adv6 {
+.adv7 {
 	width: 500px;
-	background: url(../images/adv7.jpg);
+	
+}
+
+.craftPhotos {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.craftImageRow {
+	display: flex;
+	flex-direction: row;
+	margin-left: 90px;
+}
+
+.craftImageRow img{
+	
+	display: flex;
+	margin-left: 5px;
+	margin-bottom: 10px;	
 }
 
 
 .hoverEffectImg{
    overflow: hidden;
    position: relative;
-   text-align: center;
    cursor: default;
 }
 .hoverEffectImg img {
    display: block;
    position: relative;
 }
+
+
 
 .hoverEffectImg .Textmask{
 	width: 680px;
@@ -639,8 +659,15 @@ video {
 	height: 240px;
    position: absolute;
    overflow: hidden;
-   top: 5px;
-   left: 0;
+}
+
+.hoverEffectImg .Textmask3{
+	width: 500px;
+	height: 300px;
+   position: absolute;
+   overflow: hidden;
+   top: 0px;
+   left: 5px;
 }
 
 .hoverEffectImg p {
@@ -651,14 +678,10 @@ video {
    text-align: left;
 }
 
-.hoverEffectImg-view img {
-   -webkit-transition: all 0.2s linear;
-   -moz-transition: all 0.2s linear;
-   -o-transition: all 0.2s linear;
-   -ms-transition: all 0.2s linear;
-   transition: all 0.2s linear;
-}
-.hoverEffectImg-view .Textmask, .hoverEffectImg-view .Textmask1, .hoverEffectImg-view .Textmask2{
+
+
+
+.hoverEffectImg-view .Textmask, .hoverEffectImg-view .Textmask1, .hoverEffectImg-view .Textmask2, .hoverEffectImg-view .Textmask3{
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -687,7 +710,7 @@ video {
    -ms-transition: all 0.2s linear;
    transition: all 0.2s linear;
 }
-.hoverEffectImg-view:hover .Textmask, .hoverEffectImg-view:hover .Textmask1, .hoverEffectImg-view:hover .Textmask2{
+.hoverEffectImg-view:hover .Textmask, .hoverEffectImg-view:hover .Textmask1, .hoverEffectImg-view:hover .Textmask2, .hoverEffectImg-view:hover .Textmask3{
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
@@ -720,6 +743,19 @@ display: flex;
 }
 
 
+.Textmask3 p {
+	top: 150px;
+}
+
+.hoverEffectImg .Textmask3{
+	width: 300px;
+	height: 200px;
+   position: absolute;
+   overflow: hidden;
+   top: 0px;
+   left: 0px;
+}
+
 .hoverEffectImg .Textmask2, .hoverEffectImg .Textmask, .hoverEffectImg .Textmask1{
 	width: 240px;
 	height: 240px;
@@ -730,7 +766,18 @@ display: flex;
    left: 20px;
 }
 
+.craftImageRow {
+	display: flex;
+	flex-direction: column;
+	margin-left: 85px;
+}
 
+.craftImageRow img{
+	display: flex;
+	width: 300px;
+	height: 200px;
+	margin-left: 0px;
+}
 
 .header {
 	display: flex;
@@ -802,7 +849,6 @@ display: flex;
 
 .photoRow1 img{
 	display: flex;
-	margin-top: 5px;
 }
 
 .photoRow2 img{
@@ -814,53 +860,44 @@ display: flex;
 	margin-top: 5px;
 }
 
+
+
 .adv5{
 	width: 240px;
 	height: 240px;
-	display: block;
-	background: url(../images/adv5_2.jpg) no-repeat;
+	background-image: url(../images/adv5_2.jpg);
+	margin-left: 20px;
+	
 }
 
 .adv1{
 	width: 240px;
 	height: 240px;
-	display: block;
-	background: url(../images/adv1.jpg) no-repeat;
 }
 
 .adv2{
 	width: 240px;
 	height: 240px;
-	display: block;
-	background: url(../images/adv2.jpg) no-repeat;
 }
 
 .adv3{
 	width: 240px;
 	height: 240px;
-	display: block;
-	background: url(../images/adv3.jpg) no-repeat;
 }
 
 .adv4{
 	width: 240px;
 	height: 240px;
-	display: block;
-	background: url(../images/adv4_2.jpg) no-repeat;
 }
 
 .adv6{
 	width: 240px;
 	height: 240px;
-	display: block;
-	background: url(../images/adv6_2.jpg) no-repeat;
 }
 
 .adv7{
 	width: 240px;
 	height: 240px;
-	display: block;
-	background: url(../images/adv7_2.jpg) no-repeat;
 }
 
 /* Contact Page Media Query */
@@ -1181,6 +1218,18 @@ width: 90%
    overflow: hidden;
    top: 5px;
    left: 75px;
+}
+
+
+.craftImageRow {
+	display: flex;
+	flex-direction: column;
+	margin-left: 185px;
+}
+
+.craftImageRow img{
+	display: flex;
+	margin-left: 0px;
 }
 
 
@@ -1592,6 +1641,16 @@ width: 90%
    left: 0;
 }
 
+.hoverEffectImg .Textmask3{
+	width: 300px;
+	height: 200px;
+   position: absolute;
+   overflow: hidden;
+   top: 0px;
+   left: 5px;
+}
+
+
 .hoverEffectImg .Textmask1{
 	width: 240px;
 	height: 240px;
@@ -1600,6 +1659,19 @@ width: 90%
    top: 5px;
    left: 0;
 }
+
+
+.craftImageRow {
+	display: flex;
+	flex-direction: row;
+	margin-left: 40px;
+}
+
+.craftImageRow img{
+	display: flex;
+	margin-left: 5px;
+}
+
 
 .hoverEffectImg .Textmask2{
 	width: 326px;
@@ -2017,6 +2089,17 @@ width: 90%
 .photoRow1 img{
 	display: flex;
 	margin-left: 0px;
+}
+
+.craftImageRow {
+	display: flex;
+	flex-direction: row;
+	margin-left: 80px;
+}
+
+.craftImageRow img{
+	display: flex;
+	margin-left: 5px;
 }
 
 
@@ -2470,6 +2553,36 @@ width: 90%
 	margin-left: 120px;
 }
 
+
+.Textmask3 p {
+	top: 150px;
+}
+
+
+.hoverEffectImg .Textmask3{
+	width: 400px;
+	height: 300px;
+   position: absolute;
+   overflow: hidden;
+   top: 0px;
+   left: 5px;
+}
+
+.craftImageRow {
+	display: flex;
+	flex-direction: row;
+	margin-left: 80px;
+}
+
+.craftImageRow img{
+	display: flex;
+	width: 400px;
+	height: 200px;
+	margin-left: 5px;
+}
+
+
+
 .mainNav a {
 	font-size: 16px;
 }
@@ -2905,6 +3018,22 @@ width: 150px;
 		margin: 0 auto;
 	}
 
+
+.hoverEffectImg .Textmask3{
+	width: 500px;
+	height: 400px;
+   position: absolute;
+   overflow: hidden;
+   top: 0px;
+   left: 5px;
+}
+
+.Textmask3 p {
+	top: 225px;
+}
+
+
+
 #burgerCon {
 	display: flex;
 	flex-direction: row;
@@ -2914,6 +3043,21 @@ width: 150px;
 	flex-direction: row;
 	margin-left: 200px;
 }
+
+.craftImageRow {
+	display: flex;
+	flex-direction: row;
+	margin-left: 80px;
+}
+
+.craftImageRow img{
+	display: flex;
+	width:500px;
+	height: 300px;
+	margin-left: 5px;
+}
+
+
 
 .mainNav a {
 	font-size: 16px;
@@ -3252,7 +3396,13 @@ width: 150px;
 	margin-top: 0px;
 }
 
+.photoRow3 {
+	margin-left: 20px;
+}
 
+.photoRow2 {
+	margin-left: 25px;
+}
 
 /* END OF CONTACT PAGE MEDIA QUERY */
 
