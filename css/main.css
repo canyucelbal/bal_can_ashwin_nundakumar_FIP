@@ -445,8 +445,13 @@ video {
 
 .productImages {
 	margin-top: 10px;
-	margin-right: 50px;
 }
+
+
+.productImages  img{
+	margin-right: 2.5px;
+}
+
 
 .exclusiveImages {
 	display: flex;
@@ -1093,8 +1098,9 @@ width: 90%
 }
 
 .productsSection {
-	flex-grow: 1;
+
 	display: flex;
+	flex-grow: 1;
 	flex-direction: column;
 }
 
@@ -2638,6 +2644,7 @@ width: 90%
 }
 
 
+
 .hoverEffectImg .Textmask3{
 	width: 400px;
 	height: 300px;
@@ -2682,16 +2689,18 @@ width: 90%
 }
 
 .productImages {
-	width: 600px;
+	width: 640px;
 	margin-right: 0px;
 }
 
 .productRow img {
 	width: 145px;
 	height: 145px;
-	margin-left: 2px;
-	margin-right: 1px;
+	margin-left: 8px;
+	margin-right: 4px;
 }
+
+
 
 .close-button {
 	position: relative;
@@ -2733,6 +2742,16 @@ width: 90%
 .show-lightbox {
   display: block;
 }
+
+.productRow {
+	width: 650px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 0px;
+	margin-bottom: 5px;
+}
+
 
 
 
@@ -2778,7 +2797,7 @@ width: 90%
 
 .borderExclusive2 {
 	display: flex;
-	width: 397px;
+	width: 355px;
 	flex-direction: column;
 }
 
@@ -2789,10 +2808,14 @@ width: 90%
 	background-color: white;
 }
 
-
+.exclusiveImages {
+	width: 325px;
+}
 
 .exclusives img{
-width: 150px;
+width: 135px;
+height: 135px;	
+margin-bottom: 15px;
 }
 
 .title {
@@ -3105,6 +3128,17 @@ width: 150px;
    left: 0px;
 }
 
+
+.link{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left: 50px;
+
+}
+.productRow {
+	width: 640px;
+}
 }
 
 
@@ -3214,7 +3248,7 @@ width: 150px;
 
 
 .productRow {
-	width: 800px;
+	width: 850px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -3223,9 +3257,10 @@ width: 150px;
 }
 
 .productRow img{
-	margin-top: 10px;
-	width: 195px;
-	height: 195px;
+	margin-top: 5px;
+	margin-left: 1px;
+	width: 205px;
+	height: 205px;
 }
 
 .mainImage {
@@ -3270,7 +3305,7 @@ width: 150px;
 
 .borderExclusive2 {
 	display: flex;
-	width: 396px;
+	width: 350px;
 	flex-direction: column;
 }
 
@@ -3281,7 +3316,9 @@ width: 150px;
 	background-color: white;
 }
 
-
+.productImages {
+	width: 840px;
+}
 
 .exclusives img{
 width: 150px;
@@ -3290,7 +3327,7 @@ width: 150px;
 .title {
 	margin-top: 0px;
 	display: flex;
-	margin-left: 295px;
+	margin-left: 247px;
 	border-right: none;
 }
 
@@ -3319,7 +3356,9 @@ width: 150px;
 .link{
 	display: flex;
 	justify-content: center;
-	margin-top: 75px;
+
+	margin-top: 80px;
+
 	margin-left: 50px;
 
 }
