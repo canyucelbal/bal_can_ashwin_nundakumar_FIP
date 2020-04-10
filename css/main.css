@@ -641,14 +641,6 @@ video {
 
 
 
-.hoverEffectImg .Textmask{
-	width: 680px;
-	height: 240px;
-   position: absolute;
-   overflow: hidden;
-   top: 5px;
-   left: 0;
-}
 
 .hoverEffectImg .Textmask1{
 	width: 240px;
@@ -675,6 +667,16 @@ video {
    left: 5px;
 }
 
+
+.hoverEffectImg .Textmask4{
+	width: 210px;
+	height: 210px;
+   position: absolute;
+   overflow: hidden;
+   top: 5px;
+   left: 0px;
+}
+
 .hoverEffectImg p {
    font-size: 18px;
    top: 165px;
@@ -683,10 +685,16 @@ video {
    text-align: left;
 }
 
+.Textmask4 p {
+   font-size: 18px;
+   top: 100px;
+   position: relative;
+   color: white;
+   left: 50px;
+}
 
-
-
-.hoverEffectImg-view .Textmask, .hoverEffectImg-view .Textmask1, .hoverEffectImg-view .Textmask2, .hoverEffectImg-view .Textmask3{
+/* something */
+.hoverEffectImg-view .Textmask, .hoverEffectImg-view .Textmask1, .hoverEffectImg-view .Textmask2, .hoverEffectImg-view .Textmask3, .hoverEffectImg-view .Textmask4{
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -715,7 +723,7 @@ video {
    -ms-transition: all 0.2s linear;
    transition: all 0.2s linear;
 }
-.hoverEffectImg-view:hover .Textmask, .hoverEffectImg-view:hover .Textmask1, .hoverEffectImg-view:hover .Textmask2, .hoverEffectImg-view:hover .Textmask3{
+.hoverEffectImg-view:hover .Textmask, .hoverEffectImg-view:hover .Textmask1, .hoverEffectImg-view:hover .Textmask2, .hoverEffectImg-view:hover .Textmask3, .hoverEffectImg-view:hover .Textmask4{
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
@@ -752,14 +760,29 @@ display: flex;
 	top: 150px;
 }
 
+.adv5 {
+	margin-top: 5px;
+}
+
 .hoverEffectImg .Textmask3{
 	width: 300px;
-	height: 200px;
+	height: 210px;
    position: absolute;
    overflow: hidden;
    top: 0px;
    left: 0px;
 }
+
+.hoverEffectImg .Textmask{
+	width: 240px;
+	height: 240px;
+   position: absolute;
+   overflow: hidden;
+   top: 0px;
+   left: 0px;
+}
+
+
 
 .hoverEffectImg .Textmask2, .hoverEffectImg .Textmask, .hoverEffectImg .Textmask1{
 	width: 240px;
@@ -1226,6 +1249,9 @@ width: 90%
    left: 75px;
 }
 
+.adv5 {
+	margin-left: 75px;
+}
 
 .craftImageRow {
 	display: flex;
@@ -1638,33 +1664,28 @@ width: 90%
 
 @media screen and (min-width: 700px) {
 	
-.hoverEffectImg .Textmask{
-	width: 680px;
-	height: 240px;
-   position: absolute;
-   overflow: hidden;
-   top: 5px;
-   left: 0;
+
+.adv5 {
+	margin-left: 110px;
 }
 
-.hoverEffectImg .Textmask3{
-	width: 300px;
-	height: 200px;
-   position: absolute;
-   overflow: hidden;
-   top: 0px;
-   left: 5px;
-}
-
-
-.hoverEffectImg .Textmask1{
+.hoverEffectImg .Textmask, .hoverEffectImg .Textmask1, .hoverEffectImg .Textmask2, .hoverEffectImg .Textmask3{
 	width: 240px;
 	height: 240px;
    position: absolute;
+   display: flex;
    overflow: hidden;
    top: 5px;
-   left: 0;
+   left: 110px;
 }
+
+
+.productRow img {
+	margin-bottom: 5px;
+	margin-right: 8px;
+}
+
+
 
 
 .craftImageRow {
@@ -1679,14 +1700,6 @@ width: 90%
 }
 
 
-.hoverEffectImg .Textmask2{
-	width: 326px;
-	height: 240px;
-   position: absolute;
-   overflow: hidden;
-   top: 5px;
-   left: 0;
-}
 	.container {
 		max-width: 700px;
 		margin: 0 auto;
@@ -2073,6 +2086,26 @@ width: 90%
 
 @media screen and (min-width: 800px) {
 	
+
+.adv5 {
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+
+.adv1 {
+	margin-top: 5px;
+}
+
+.hoverEffectImg .Textmask{
+	width: 700px;
+	height: 240px;
+   position: absolute;
+   display: flex;
+   overflow: hidden;
+   top: 5px;
+   left: 10px;
+}
+
 
 .photoRow1 {
 	display: flex;
@@ -2494,6 +2527,33 @@ border-right: none;
 flex-direction: column;
 }
 
+.hoverEffectImg .Textmask1{
+	width: 240px;
+	height: 240px;
+   position: absolute;
+   overflow: hidden;
+   top: 5px;
+   left: 0;
+}
+
+.hoverEffectImg .Textmask2{
+	width: 326px;
+	height: 240px;
+   position: absolute;
+   overflow: hidden;
+
+   top: 0px;
+   left: 5px;
+}
+
+.hoverEffectImg .Textmask3{
+	width: 500px;
+	height: 300px;
+   position: absolute;
+   overflow: hidden;
+   top: 0px;
+   left: 5px;
+}
 
 .advertisingTitle h3{
 	display: flex;
@@ -2520,6 +2580,10 @@ margin-top: 10px;
 width: 90%
 }
 
+.productRow img {
+	margin-left: 0px;
+	margin-right: 3px;
+}
 
 /* END OF CONTACT PAGE MEDIA QUERY */
 
@@ -2530,7 +2594,22 @@ width: 90%
 	font-size: 16px;
 	margin-top: 20px;
 }
-
+.hoverEffectImg .Textmask{
+	width: 700px;
+	height: 240px;
+   position: absolute;
+   overflow: hidden;
+   top: 5px;
+   left: 0px;
+}
+.hoverEffectImg .Textmask2{
+	width: 400px;
+	height: 300px;
+   position: absolute;
+   overflow: hidden;
+   top: 0px;
+   left: 0px;
+}
 }
 
 
@@ -2563,6 +2642,7 @@ width: 90%
 .Textmask3 p {
 	top: 150px;
 }
+
 
 
 .hoverEffectImg .Textmask3{
@@ -2607,6 +2687,19 @@ width: 90%
 	margin-left: 0px;
 	margin-bottom: 5px;
 }
+
+.productImages {
+	width: 640px;
+	margin-right: 0px;
+}
+
+.productRow img {
+	width: 145px;
+	height: 145px;
+	margin-left: 8px;
+	margin-right: 4px;
+}
+
 
 
 .close-button {
@@ -2659,12 +2752,8 @@ width: 90%
 	margin-bottom: 5px;
 }
 
-.productRow img{
-	margin-top: 5px;
-	margin-left: 3px;
-	width: 155px;
-	height: 155px;
-}
+
+
 
 .mainImage {
 	display: flex;
@@ -2708,7 +2797,7 @@ width: 90%
 
 .borderExclusive2 {
 	display: flex;
-	width: 347px;
+	width: 355px;
 	flex-direction: column;
 }
 
@@ -2756,10 +2845,13 @@ margin-bottom: 15px;
 .link{
 	display: flex;
 	justify-content: center;
-	margin-top: 70px;
+	margin-top: 15px;
 	margin-left: 50px;
 
 }
+
+
+
 
   .productPageContent {
 	display: flex;
@@ -2921,6 +3013,7 @@ margin-bottom: 15px;
 	color: white;
 }
 
+
 .advertisingTitle h3 {
 
 	margin-top: 30px;
@@ -3026,6 +3119,14 @@ margin-bottom: 15px;
 	width: 326px;
 	background: url(../images/adv7.jpg) center no-repeat;
 }
+.hoverEffectImg .Textmask{
+	width: 700px;
+	height: 240px;
+   position: absolute;
+   overflow: hidden;
+   top: 5px;
+   left: 0px;
+}
 
 
 .link{
@@ -3034,6 +3135,9 @@ margin-bottom: 15px;
 	margin-top: 20px;
 	margin-left: 50px;
 
+}
+.productRow {
+	width: 640px;
 }
 }
 
@@ -3057,6 +3161,10 @@ margin-bottom: 15px;
 
 .Textmask3 p {
 	top: 225px;
+}
+
+.productImages {
+	width: 800px;
 }
 
 
@@ -3150,7 +3258,7 @@ margin-bottom: 15px;
 
 .productRow img{
 	margin-top: 5px;
-	margin-left: 3px;
+	margin-left: 1px;
 	width: 205px;
 	height: 205px;
 }
@@ -3197,7 +3305,7 @@ margin-bottom: 15px;
 
 .borderExclusive2 {
 	display: flex;
-	width: 347px;
+	width: 350px;
 	flex-direction: column;
 }
 
@@ -3208,7 +3316,9 @@ margin-bottom: 15px;
 	background-color: white;
 }
 
-
+.productImages {
+	width: 840px;
+}
 
 .exclusives img{
 width: 150px;
@@ -3217,7 +3327,7 @@ width: 150px;
 .title {
 	margin-top: 0px;
 	display: flex;
-	margin-left: 245.5px;
+	margin-left: 247px;
 	border-right: none;
 }
 
@@ -3246,7 +3356,9 @@ width: 150px;
 .link{
 	display: flex;
 	justify-content: center;
+
 	margin-top: 80px;
+
 	margin-left: 50px;
 
 }
@@ -3280,7 +3392,7 @@ width: 150px;
 
 .productPageTitle h3 {
 
-	margin-top: 30px; 
+	margin-top: 30px;
 	margin-left: 267px;
 	font-size: 20px;
 	color: #BC4242;
@@ -3429,10 +3541,28 @@ width: 150px;
 }
 
 .photoRow2 {
-	margin-left: 25px;
+	margin-left: 20px;
 }
 
 /* END OF CONTACT PAGE MEDIA QUERY */
 
+.hoverEffectImg .Textmask{
+	width: 700px;
+	height: 240px;
+   position: absolute;
+   overflow: hidden;
+   top: 5px;
+   left: 0;
+}
+
+
+.hoverEffectImg .Textmask2{
+	width: 330px;
+	height: 240px;
+   position: absolute;
+   overflow: hidden;
+   top: 5px;
+   left: 0;
+}
 
 }
