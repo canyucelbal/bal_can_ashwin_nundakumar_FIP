@@ -688,7 +688,7 @@ video {
    left: 50px;
 }
 
-
+/* something */
 .hoverEffectImg-view .Textmask, .hoverEffectImg-view .Textmask1, .hoverEffectImg-view .Textmask2, .hoverEffectImg-view .Textmask3, .hoverEffectImg-view .Textmask4{
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
