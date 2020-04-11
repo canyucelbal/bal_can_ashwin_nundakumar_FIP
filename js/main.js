@@ -5,10 +5,13 @@
   headText = document.querySelector(".LightBox h2"),
   paraText = document.querySelector(".LightBoxInfo");
 
-const headData = [["Can Yucel Bal"],["Ashwin Kumar"], ["something"]];
+const headData = [["Tetley's Draught"],["Tetley's Lager"], ["Tetley's Extra Scout"], ["Tetley's Dublin Porter"],["Tetley's West Indies Porter"], ["Tetley's Golden Ale"],["Tetley's Special Export"], ["Tetley's Smooth"]];
 
 const data = [[" test"],
-["test"],["something"]];
+["test"],["The scent features notes of bark, coriander and citrus on top of a rich malt base. The taste is fresh and crisp with a caramelised malt sweetness and a well-developed bitterness in the aftertaste."],["Dublin Porter is a tar black porter with a dense creamy foam crown. The taste is powerful with a rich soft sweetness and protracted bitterness in good balance. The aroma is dominated by the malt’s chocolate-like aromas, complemented by smoke and coffee."],
+[""],
+[""],
+["Tetley’s Golden Ale is an extremely smooth, creamy ale created from a balanced combination of traditional and modern brewing techniques. Tetley’s has a nutty roasted full-bodied flavour, classic hop aroma and unique crispness on the palate."]];
 
 var button = document.querySelector('#button');
 var burgerCon = document.querySelector('#burgerCon');
