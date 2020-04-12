@@ -1021,8 +1021,11 @@ display: flex;
 }
 
 .adv4{
+	margin-top: 5px;
 	width: 240px;
 	height: 240px;
+	background-image: url(../images/adv4_2.jpg);
+	margin-left: 20px;
 }
 
 .adv6{
@@ -1414,7 +1417,7 @@ video {
    left: 75px;
 }
 
-.adv5 {
+.adv5, .adv4{
 	margin-left: 75px;
 }
 
@@ -1857,7 +1860,7 @@ video {
 @media screen and (min-width: 700px) {
 	
 
-.adv5 {
+.adv5, .adv4 {
 	margin-left: 110px;
 }
 
@@ -2312,7 +2315,7 @@ video {
 @media screen and (min-width: 800px) {
 	
 
-.adv5 {
+.adv5, .adv4 {
 	margin-left: 10px;
 	margin-bottom: 0px;
 }
